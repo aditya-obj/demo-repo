@@ -1,0 +1,92 @@
+/* Please Keep your internet on for better apply of fonts */
+
+/* Importing fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: rgb(250, 239, 239);
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    color: rgb(43, 38, 38);
+    font-family: 'Chango', sans-serif;
+    font-size: 11vw;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+.buttons{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    font-size: 3vw;
+    font-family: 'Chango', sans-serif;
+    margin: 0vw 1vw;
+    padding: 0vw 1vw;
+    border-radius: 25px;
+    color: rgb(224, 204, 204);
+}
+#reset:hover, #start:hover{
+    border-color: rgb(224, 204, 204);
+}
+#reset:active, #start:active{
+    transform: scale(1.02);
+}
+#stop:active{
+    transform: scale(1.02);
+}
+#stop:hover{
+    border-color: rgb(224, 204, 204);
+}
+#start{
+    border-color: rgb(10, 10, 95);
+    background-color: rgb(10, 10, 95);
+}
+#reset{
+    border-color: rgb(10, 10, 95);
+    background-color: rgb(10, 10, 95);
+}
+#stop{
+    border-color: rgb(134, 13, 13);
+    background-color: rgb(134, 13, 13);
+}
+.hour, .minute, .second{
+    font-family: 'Anton', sans-serif;
+    font-size: 20vw;
+}
+.colon, .mili-second{
+    font-size: 10vw;
+}
+.mili-second{
+    font-family: 'Anton', sans-serif;
+    margin-left: 2vw;
+    margin-top: 8.3vw;
+}
+.colon{
+    margin-bottom: 2.5vw;
+    color: rgb(20, 20, 20);
+  }
+/*change background to black*/
+/*change color to white*/
+/*change font to chango*/
+/*change font to anton*/
+/*change font size to 20vw*/
+/*change font size to 10vw*/
+/*change font size to 3vw*/
+
+
+  
